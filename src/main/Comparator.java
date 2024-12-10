@@ -6,8 +6,8 @@ import com.opencsv.exceptions.CsvException;
 public class Comparator {
 
 	    public static void main(String[] args) throws CsvException {
-	    	String baseFile = "C:\\Users\\neena\\Downloads\\Sample.Data.v3\\Sample Data v3\\Contenders\\LocationBaseFile.csv"; 
-	        String customerFile = "C:\\Users\\neena\\Downloads\\Sample.Data.v3\\Sample Data v3\\Contenders\\LocationCustomerFile.csv";
+	    	String baseFile = "src/TestData/LocationBaseFile.csv"; 
+	        String customerFile = "src/TestData/LocationCustomerFile.csv";
 	        String delimiter = ","; 
 	        //ReadCSV readCSVObj = new ReadCSV();
 	        ReadCSVWithOpenCSV openCSVReader = new ReadCSVWithOpenCSV();
